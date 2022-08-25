@@ -1,0 +1,322 @@
+body{
+    display: flex;
+    background-color: black;
+    height: 240vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    width: auto;
+    height: 100px;
+    text-align: left;
+}
+.logo{
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+nav{
+    width: 1480px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.header{
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    transition:all .5s ease 0s;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    cursor: url("../cur1049.cur"),auto;
+}
+.endstrokeheader{
+    margin-top: 10px;
+    width: auto;
+    height: 3px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.home{
+    float: left;
+    display: flexbox;
+    margin-top: -500px;
+    margin-left: 20px;
+    font-size: 25px;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    transition: 0.5s;
+}
+.backgroundside1{
+    margin-top: 70px;
+    width: auto;
+    height: auto;
+}
+.backgroundside1 img{
+    width: 1480px;
+    z-index: -1;
+    border-radius: 50px;
+}
+.endstrokehome{
+    width: auto;
+    height: 2px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.about{
+    text-align: left;
+    display: flexbox;
+    margin-top: -500px;
+    margin-left: 1100px;
+    width: 500px;
+    height: 200px;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+}
+.backgroundside2 {
+    width: auto;
+    height: auto;
+}
+.backgroundside2 .imgg{
+    width: 1480px;
+    z-index: -1;
+    border-radius: 100px;
+}
+.borderr img{
+    margin-left: 100px;
+    margin-top: -500px;
+    display: flexbox;
+    width: 354px;
+    height: 472px;
+}
+.mypicture img{
+    margin-left: 100px;
+    margin-top: -500px;
+    display: flexbox;
+    width: 354px;
+    height: 472px;
+}
+.info{
+    text-align: center;
+    display: flexbox;
+    margin-top: -500px;
+    margin-left: 200px;
+    width: 500px;
+    height: 200px;
+    font-size: 19px;
+    position: absolute;
+    color: white;
+    border: 1px solid aqua;
+    transition: 0.8s;
+}
+.info2{
+    text-align: center;
+    display: flexbox;
+    margin-top: -500px;
+    margin-left: 800px;
+    width: 500px;
+    height: 200px;
+    font-size: larger;
+    position: absolute;
+    color: white;
+    border: 1px solid aqua;
+    transition: 0.8s;
+}
+.info3{
+    text-align: center;
+    display: flexbox;
+    margin-top: -200px;
+    margin-left: 500px;
+    width: 500px;
+    height: 200px;
+    font-size: larger;
+    position: absolute;
+    color: white;
+    border: 1px solid aqua;
+    transition: 0.8s;
+}
+.backgroundside3{
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    opacity: 30%;
+}
+.backgroundside3 img{
+    width: 1480px;
+    z-index: -1;
+    border-radius: 800px;
+}
+.foter{
+    margin-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 100px;
+}
+.foter ul{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foter ul li{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: -10px 16px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 60px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.infoo{
+    margin-top: 200px;
+    top: 0;
+    bottom: 0;
+}
+.active{
+    border-bottom: 4px solid red;
+    display: inline-block;
+    padding: 5px;
+}
+html{
+    scroll-behavior: smooth;
+    cursor: url("../cur1054.cur"),auto;
+}
+p, h1{
+    cursor: url("../cur1047.cur"),auto;
+}
+.skillbar{
+    color: white;
+}
+.skillbar p{
+    text-align: center;
+}
+.skillbox{
+    margin-left: 50px;
+    text-align: right;
+    width: 75%;
+    height: 10px;
+    background-color: white
+}
+.bar{
+    height: 10px;
+    width: 55%;
+    background-color: #FB7A09;
+}
+.bar p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar2{
+    height: 10px;
+    width: 60%;
+    background-color: #1E5D07;
+}
+.bar2 p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar3{
+    height: 10px;
+    width: 20%;
+    background-color: red;
+}
+.bar3 p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar4{
+    height: 10px;
+    width: 46%;
+    background-color: orangered;
+}
+.bar4 p{
+    font-size: 10px;
+    text-align: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.bar5{
+    height: 10px;
+    width: 25%;
+    background-color: red;
+}
+.bar5 p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar6{
+    height: 10px;
+    width: 75%;
+    background-color: #17c600;
+}
+.bar6 p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar7{
+    height: 10px;
+    width: 70%;
+    background-color: #37a106;
+}
+.bar7 p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar8{
+    height: 10px;
+    width: 40%;
+    background-color: #a90404;
+}
+.bar8 p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar9{
+    height: 10px;
+    width: 90%;
+    background-color: #3fe204;
+}
+.bar9 p{
+    font-size: 10px;
+    text-align: right;
+}
+.bar10{
+    height: 10px;
+    width: 30%;
+    background-color: #ff2a2a;
+}
+.bar10 p{
+    font-size: 10px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+/* Start https://www.cursors-4u.com */ /* {cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1136.ani), url(https://cur.cursors-4u.net/anime/ani-12/ani1136.gif), auto !important;} /* End https://www.cursors-4u.com */
