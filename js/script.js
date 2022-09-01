@@ -9,7 +9,7 @@ function activeMenu(){
 }
 activeMenu();
 window.addEventListener("scroll", activeMenu);
-var root = {
+/*var root = {
     wavecolor: {  
       r: 125,
       g: 52,
@@ -100,7 +100,7 @@ var root = {
         root.rainbowSpeed = val/100;
         break;     
     }
-  }
+  }*/
   
   function hexToRgb(hex) {
     var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
